@@ -54,7 +54,9 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
-
+.form-info  {
+    padding-left: 40px;
+}
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -312,7 +314,6 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: 63px;
     float: right;
     z-index: 1;
 }
@@ -361,7 +362,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 143px;
+        right: 10px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -651,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .hero-bloc-text {
@@ -697,7 +698,7 @@ a {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 25px;
     line-height: 1.4em;
     color: black;
 }
@@ -735,6 +736,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    display:unset;
 }
 
 .portfolio-row {
@@ -771,7 +773,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #d44400;
 }
 
 .tc-white {
@@ -780,7 +782,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #d44400;
     color: #FFFFFF!important;
 }
 
@@ -798,7 +800,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #d44400!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -819,6 +821,9 @@ h4 {
     display: block;
     padding: 10px 15px;
     text-decoration: none;
+}
+.social-text    {
+    color: white;
 }
 /* .bg-dots-bg {
     background-image: url("img/dots-bg.png");
@@ -905,7 +910,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    h1,
+    /* h1,
     h2,
     h3,
     h4,
@@ -913,9 +918,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
-    }
+        padding: 35px;
+    } */
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1022,7 +1026,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 35px;
     }
     .close-lightbox {
         display: inline-block;

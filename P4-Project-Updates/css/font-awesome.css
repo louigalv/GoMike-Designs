@@ -17,6 +17,7 @@
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
+    padding: 10px;
     -moz-osx-font-smoothing: grayscale
 }
 
